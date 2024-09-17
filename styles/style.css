@@ -312,12 +312,11 @@
 
 .membership__steps {
   list-style-type: none;
-  padding: 0;
+  padding: 0px 40px;
   margin: 100px 0 0;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 40px;
 }
 
 .step {
@@ -364,6 +363,7 @@
 
 .footer__column .footer__column_content_hours {
   display: flex;
+  ;
   flex-direction: column;
   align-items: center;
 }
