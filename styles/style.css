@@ -312,21 +312,15 @@
 
 .membership__steps {
   list-style-type: none;
-  padding: 0px 40px;
+  padding: 0;
   margin: 100px 0 0;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
 }
 
 .step {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 40px;
-  width: 220px;
-  height: auto;
-  padding: 0;
+  flex-basis: 220px;
 }
 
 .step__title {
@@ -350,40 +344,28 @@
   box-sizing: border-box;
   background-color: #111111;
   color: #fff;
-  border-radius: 4px;
+  padding: 60px 80px;
 }
 
 .footer__columns {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 60px 80px;
-  height: 200px;
 }
 
-.footer__column .footer__column_content_hours {
-  display: flex;
-  ;
-  flex-direction: column;
-  align-items: center;
+.footer__column_content_hours {
+ margin-left: auto;
 }
 
-.footer__column .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.footer__column_content_social {
+  margin-left: 80px;
 }
 
 .footer__logo {
   width: 58px;
   height: 80px;
-  margin-left: 80px;
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
-  font-size: 16px;
-  line-height: 10px;
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -399,18 +381,19 @@
 }
 
 .footer__column-link {
+  display: flex;
+  align-items: center;
   color: white;
   text-decoration: none;
+  column-gap: 10px;
 }
 
 .footer__social-icon {
   width: 16px;
   height: 16px;
-  margin-right: 10px;
 }
 
 .footer__copyright {
-  display: flex;
-  justify-content: flex-start;
-  padding: 0px 0px 60px 160px;
+  margin-top: 100px;
+  margin-bottom: 0;
 }
